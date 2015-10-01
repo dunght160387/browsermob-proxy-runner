@@ -1,0 +1,34 @@
+{
+  "name": "browsermob-proxy-runner",
+  "version": "1.0.0",
+  "description": "A library to download and launch the Browsermob-proxy Server.",
+  "main": "lib/browsermob-proxy-runner",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "freeport": "1.0.x",
+    "request": "2.9.x"
+  },
+  "devDependencies": {
+    "extract-zip": "^1.1.1",
+    "https": "^1.0.0",
+    "mocha": "1.x.x",
+    "portscanner": "^1.0.0",
+    "soda": "0.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunght160387/browsermob-proxy-runner.git"
+  },
+  "keywords": [
+    "browsermob",
+    "browsermob-runner"
+  ],
+  "author": "Ha The Dzung <dunght1603@gmail.com> (https://github.com/dunght160387/browsermob-proxy-runner)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dunght160387/browsermob-proxy-runner/issues"
+  },
+  "homepage": "https://github.com/dunght160387/browsermob-proxy-runner#readme"
+}

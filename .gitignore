@@ -1,0 +1,7 @@
+/.tags
+/lib-cov/
+/lib/browsermob-proxy-*/
+/lib/browsermob-proxy-*.zip
+/node_modules/
+/npm-debug.log
+.idea/
