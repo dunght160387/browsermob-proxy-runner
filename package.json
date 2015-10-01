@@ -1,6 +1,6 @@
 {
   "name": "browsermob-proxy-runner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to download and launch the Browsermob-proxy Server.",
   "main": "lib/browsermob-proxy-runner",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "dependencies": {
     "freeport": "1.0.x",
-    "request": "2.9.x"
-  },
-  "devDependencies": {
+    "request": "2.9.x",
     "extract-zip": "^1.1.1",
     "https": "^1.0.0",
+    "portscanner": "^1.0.0"
+  },
+  "devDependencies": {
     "mocha": "1.x.x",
-    "portscanner": "^1.0.0",
     "soda": "0.2.x"
   },
   "repository": {
