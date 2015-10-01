@@ -11,6 +11,9 @@ browsermobRunner(function(er, browsermob){
         return;
     }
 
+    console.log('browsermob host: ' + browsermob.host);
+    console.log('browsermob port: ' + browsermob.port);
+
     browsermob.on('exit', function() {
         console.log('exit');
     });
